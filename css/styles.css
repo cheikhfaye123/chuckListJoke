@@ -18,7 +18,7 @@ button {
   padding: 8px 16px;
   font-size: 16px;
   background-color: #007bff;
-  color: #fff;
+  color: #fefefe;
   border: none;
   cursor: pointer;
 }
@@ -27,5 +27,22 @@ button:hover {
   background-color: #0056b3;
 }
 
+#padre {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+#padre button {
+  display: flex;
+  width: 80px;
+  justify-content: center;
+  background-color: red;
+  margin-bottom: 10px;
+}
 
+#padre button:hover {
+  background-color: rgb(193, 6, 6);
+}
 
